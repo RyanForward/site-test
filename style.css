@@ -8,13 +8,12 @@
     src: url(fontes/Raleway/Raleway-VariableFont_wght.ttf);
 }
 
-wrapper{
+.overflow div{
     overflow-x: hidden;
 }
 
 body{
     padding: 0px;
-    background-size: cover;
     background-color: #e3e5eb;
     overflow-x: hidden;
     overflow-y: visible;
