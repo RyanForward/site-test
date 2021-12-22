@@ -14,7 +14,6 @@ wrapper{
 
 body{
     padding: 0px;
-    position: fixed;
     background-size: cover;
     background-color: #e3e5eb;
     overflow-x: hidden;
