@@ -8,6 +8,10 @@
     src: url(fontes/Raleway/Raleway-VariableFont_wght.ttf);
 }
 
+wrapper{
+    overflow-x: hidden;
+}
+
 body{
     margin: 0px;
     padding: 0px;
