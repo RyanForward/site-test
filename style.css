@@ -135,33 +135,33 @@ a:hover{
         display: flex;
         right: 1vw;
         top: 5vh;
-        transition: 0.5;
+        transition: 0.3;
     }
 
     #menu-icon.active .line1{
         
-        transform: rotate(150deg) translate(-8px, 8px);
-        transition: 0.3s;
+        transform: rotate(150deg) translate(-8px, 4px);
+        transition: 0.4s;
         position: absolute;
-        left: 8.3px;
-        top: 2.6vh;
+        left: 4.3px;
+        top: 2.4vh;
         width: 3vw;
        
     }
     #menu-icon.active .line2{
         border-radius: 10%;
         opacity: 1;
-        width: 30px;
+        width: 36px;
         position: absolute;
         left: 2vw;
         top: 2vh;
     }
     #menu-icon.active .line3{
-        transform: rotate(-150deg) translate(-8px, 8px);
-        transition: 0.3s;
+        transform: rotate(-150deg) translate(-8px, 4px);
+        transition: 0.4s;
         position: absolute;
         left: 0px;
-        top: 2.8vh;
+        top: 2.3vh;
         width: 3vw;
     }
 
@@ -171,7 +171,7 @@ a:hover{
         height: 4px;
         margin: 3px;
         background-color: #A61103;
-        transition: 0.3s;
+        transition: 0.4s;
     }
 
     #nav-list{
