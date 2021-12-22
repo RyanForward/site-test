@@ -33,7 +33,7 @@ a {
 }
 
 a:hover{
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 @media screen and (min-width: 50px) and (max-width: 600px) {
@@ -121,34 +121,55 @@ a:hover{
 
     #menu-icon{
         position: absolute;
-        right: 1vw;
-        top: 5vh;
+        right: 0.5vw;
+        top: 4vh;
+        height: 7vh;
+        width: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     #menu-icon.active{
-        position: absolute;
+        display: flex;
         right: 1vw;
-        top: 4vh;
+        top: 5vh;
         transition: 0.5;
     }
 
     #menu-icon.active .line1{
-        transform: rotate(-45deg) translate(-8px, 8px);
+        
+        transform: rotate(150deg) translate(-8px, 8px);
         transition: 0.3s;
+        position: absolute;
+        left: 8.3px;
+        top: 2.6vh;
+        width: 3vw;
+       
     }
     #menu-icon.active .line2{
-        opacity: 0;
+        border-radius: 10%;
+        opacity: 1;
+        width: 30px;
+        position: absolute;
+        left: 2vw;
+        top: 2vh;
     }
     #menu-icon.active .line3{
-        transform: rotate(45deg) translate(-3px, -3px);
+        transform: rotate(-150deg) translate(-8px, 8px);
         transition: 0.3s;
+        position: absolute;
+        left: 0px;
+        top: 2.8vh;
+        width: 3vw;
     }
 
     #menu-icon div{
         display: flex;
         width: 30px;
         height: 4px;
-        margin: 4px;
+        margin: 3px;
         background-color: #A61103;
         transition: 0.3s;
     }
