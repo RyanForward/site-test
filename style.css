@@ -13,8 +13,8 @@ wrapper{
 }
 
 body{
-    margin: 0px;
     padding: 0px;
+    position: fixed;
     background-size: cover;
     background-color: #e3e5eb;
     overflow-x: hidden;
