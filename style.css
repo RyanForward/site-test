@@ -154,7 +154,7 @@ a:hover{
        transform: rotate(150deg);
        position: relative;
        width: 3.5vw;
-       top: 0.6vh;
+       top: 0.7vh;
        right: 2.2vw;
     }
     #menu-icon.active .line2{
@@ -167,7 +167,7 @@ a:hover{
         transform: rotate(-150deg);
         position: relative;
         width: 3.5vw;
-        top: -0.6vh;
+        top: -0.7vh;
         right: 2.2vw;
     }
 
