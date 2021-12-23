@@ -9,11 +9,15 @@
 }
 
 
-body{
+html, body{
     padding: 0px;
     background-color: #e3e5eb;
     overflow-x: hidden;
     overflow-y: visible;
+}
+
+body{
+    position: relative;
 }
 
 * {
