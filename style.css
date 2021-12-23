@@ -19,17 +19,6 @@
         background-position: 0% 100%;
     }
 }
-
-
-html, body{
-    padding: 0px;
-    background: linear-gradient(45deg, #f01010, #630101, #f01010, #470101);
-    background-size: 300% 300%;
-    overflow-x: hidden;
-    overflow-y: visible;
-    animation: colors 15s ease infinite;
-}
-
 body{
     height: 200vh;
     position: relative;
@@ -53,6 +42,15 @@ a:hover{
 }
 
 @media screen and (min-width: 50px) and (max-width: 600px) {
+
+    html, body{
+        padding: 0px;
+        background: linear-gradient(45deg, #f01010, #630101, #f01010, #470101);
+        background-size: 300% 300%;
+        overflow-x: hidden;
+        overflow-y: visible;
+        animation: colors 15s ease infinite;
+    }
     
     @keyframes animacao {
         from {
@@ -156,12 +154,12 @@ a:hover{
        transform: rotate(150deg);
        position: relative;
        width: 3.5vw;
-       top: 0.54vh;
+       top: 0.6vh;
        right: 2.2vw;
     }
     #menu-icon.active .line2{
-        width: 7vw;
-        height: 0.55vh;
+        width: 6vw;
+        height: 0.5vh;
         position: relative;
         right: 0.5vw;
     }
@@ -169,7 +167,7 @@ a:hover{
         transform: rotate(-150deg);
         position: relative;
         width: 3.5vw;
-        top: -0.5vh;
+        top: -0.6vh;
         right: 2.2vw;
     }
 
