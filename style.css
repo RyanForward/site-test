@@ -86,12 +86,10 @@ a:hover{
     #biography{
         
         display: flex;
-        margin-left: 0%;
         font-size: 1.5em;
         justify-content: center;
         font-family: Corintia;
         color: #A61103;
-        margin-top: 10vh;
         font-weight: bold;
     }
 
@@ -143,11 +141,12 @@ a:hover{
        transform: rotate(150deg);
        position: relative;
        width: 3.5vw;
-       top: 0.5vh;
+       top: 0.54vh;
        right: 2.2vw;
     }
     #menu-icon.active .line2{
         width: 7vw;
+        height: 0.55vh;
         position: relative;
         right: 0.5vw;
     }
@@ -174,7 +173,7 @@ a:hover{
         font-weight: 500;
         border: 4px solid transparent;
         border-radius: 10px;
-        background-color: rgba(247, 243, 243, 0.3);
+        background-color: rgba(247, 243, 243, 0.445);
         backdrop-filter: blur(4px);
         background-clip: padding-box;
         position: absolute;
@@ -194,10 +193,6 @@ a:hover{
 
     #button{
         border: none;
-    }
-
-    #button.active.line1{
-        transform: rotateY(90deg);
     }
 
     #nav-list.active{
