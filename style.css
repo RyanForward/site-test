@@ -161,7 +161,7 @@ a:hover{
 
     #nav-list{
         z-index: 1000;
-        font-size: 2em;
+        font-size: 1.1em;
         border: 5px solid transparent;
         border-radius: 15px;
         background-color: rgba(255, 255, 255, 0.356);
@@ -171,7 +171,7 @@ a:hover{
         right: 1vw;
         top: 8vh;
         width: 30vw;
-        height: 88vh;
+        height: 70vh;
         display: flex;
         list-style: none;
         flex-direction: column;
@@ -183,11 +183,12 @@ a:hover{
 
     #nav-list img:hover{
         opacity: 0.6;
-        width: 12vw;
+        width: 10vw;
         transition: 0.3s;
     }
 
     #nav-list div{
+        margin-top: 10px;
         transition: 0.2s;
         display: flex;
         justify-content: center;
@@ -195,7 +196,7 @@ a:hover{
 
     #nav-list img{
         transition: 0.1s;
-        width: 10vw;
+        width: 5vw;
         display: flex;
         position: relative;
         align-items: center;
