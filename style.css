@@ -135,7 +135,8 @@ a:hover{
         position: absolute;
         right: 0.5vw;
         top: 3vh;
-        height: 7vh;
+        border-radius: 70%;
+        height: 4.5vh;
         width: 10%;
         display: flex;
         justify-content: center;
@@ -165,23 +166,22 @@ a:hover{
         width: 30px;
         height: 4px;
         margin: 3px;
-        background-color: #fff;
+        background-color: rgb(255, 255, 255);
         transition: 0.4s;
     }
 
     #nav-list{
         z-index: 1000;
         font-size: 2em;
-        font-weight: 500;
-        border: 4px solid transparent;
+        border: 5px solid transparent;
         border-radius: 15px;
-        background-color: rgba(255, 255, 255, 0.425);
+        background-color: rgba(255, 255, 255, 0.356);
         backdrop-filter: blur(4px);
         background-clip: padding-box;
         position: absolute;
-        right: 0;
-        top: 9vh;
-        width: 40vw;
+        right: 1vw;
+        top: 8vh;
+        width: 30vw;
         height: 88vh;
         display: flex;
         list-style: none;
@@ -189,8 +189,28 @@ a:hover{
         justify-content: space-around;
         align-items: center;
         transform: translateX(100vw);
-        transition: 0.4s;
-        
+        transition: 0.4s;   
+    }
+
+    #nav-list img:hover{
+        opacity: 0.6;
+        width: 18vw;
+        transition: 0.3s;
+    }
+
+    #nav-list div{
+        transition: 0.2s;
+        display: flex;
+        justify-content: center;
+    }
+
+    #nav-list img{
+        transition: 0.1s;
+        width: 15vw;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
     }
 
     #button{
@@ -201,10 +221,15 @@ a:hover{
         transform: translateX(0px);
     }
 
-    .text-red{
-        margin-top: 3vw;
-        position: relative;
-        font-size: 3vw;
+    .text-white{
+        font-family: Corintia;
+        margin-top: 5vh;
+        color:#EEEBDD;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     
