@@ -194,7 +194,7 @@ a:hover{
 
     #nav-list img:hover{
         opacity: 0.6;
-        width: 18vw;
+        width: 12vw;
         transition: 0.3s;
     }
 
@@ -206,7 +206,7 @@ a:hover{
 
     #nav-list img{
         transition: 0.1s;
-        width: 15vw;
+        width: 10vw;
         display: flex;
         position: relative;
         align-items: center;
