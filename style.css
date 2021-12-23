@@ -142,17 +142,19 @@ a:hover{
     #menu-icon.active .line1{
        transform: rotate(150deg);
        position: relative;
-       width: 3vw;
+       width: 3.5vw;
        top: 0.5vh;
        right: 2.2vw;
     }
     #menu-icon.active .line2{
-        width: 8vw;
+        width: 7vw;
+        position: relative;
+        right: 0.5vw;
     }
     #menu-icon.active .line3{
         transform: rotate(-150deg);
         position: relative;
-        width: 3vw;
+        width: 3.5vw;
         top: -0.5vh;
         right: 2.2vw;
     }
