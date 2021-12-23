@@ -8,9 +8,6 @@
     src: url(fontes/Raleway/Raleway-VariableFont_wght.ttf);
 }
 
-.overflow div{
-    overflow-x: hidden;
-}
 
 body{
     padding: 0px;
@@ -122,7 +119,7 @@ a:hover{
     #menu-icon{
         position: absolute;
         right: 0.5vw;
-        top: 4vh;
+        top: 3vh;
         height: 7vh;
         width: 10vw;
         display: flex;
@@ -133,36 +130,27 @@ a:hover{
 
     #menu-icon.active{
         display: flex;
-        right: 1vw;
-        top: 5vh;
+        right: 0.5vw;
+        top: 3vh;
         transition: 0.3;
     }
 
     #menu-icon.active .line1{
-        
-        transform: rotate(150deg) translate(-8px, 4px);
-        transition: 0.4s;
-        position: absolute;
-        left: 4.3px;
-        top: 2.4vh;
-        width: 3vw;
-       
+       transform: rotate(150deg);
+       position: relative;
+       width: 3vw;
+       top: 0.5vh;
+       right: 2.2vw;
     }
     #menu-icon.active .line2{
-        border-radius: 10%;
-        opacity: 1;
-        width: 36px;
-        position: absolute;
-        left: 2vw;
-        top: 2vh;
+        width: 8vw;
     }
     #menu-icon.active .line3{
-        transform: rotate(-150deg) translate(-8px, 4px);
-        transition: 0.4s;
-        position: absolute;
-        left: 0px;
-        top: 2.3vh;
+        transform: rotate(-150deg);
+        position: relative;
         width: 3vw;
+        top: -0.5vh;
+        right: 2.2vw;
     }
 
     #menu-icon div{
