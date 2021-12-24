@@ -247,10 +247,10 @@ a {
     }
 
     .foto-links{
-        background-color: #2e010198;
+        background-color: #350303af;
         transition: 0.7s;
         border-radius: 2%;
-        margin: 47px;
+        margin: 50px;
         padding-top: 15px;
         display: flex;
         align-items: center;
