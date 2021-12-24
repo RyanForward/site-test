@@ -31,15 +31,11 @@ body{
 
 a {
     color: black;
-    font-size: 1em;
     text-decoration: none;
     font-family: Raleway;
     transition: 0.3s;
 }
 
-a:hover{
-    opacity: 0.6;
-}
 
 @media screen and (min-width: 50px) and (max-width: 600px) {
 
@@ -62,9 +58,10 @@ a:hover{
      }
     
     .header{
+        margin: 20px;
+        text-align:initial;
         display: flex;
-        margin-left: auto;
-        margin-right: auto;
+        justify-content: center;
         color: #fff;
         width: 90vw;
         height: 30vh;
@@ -74,7 +71,7 @@ a:hover{
         
     }
 
-    #name{
+    .title{
         width: 20vw;
         margin-left: auto;
         margin-right: auto;
@@ -213,7 +210,7 @@ a:hover{
 
     .text-white{
         font-family: Corintia;
-        margin-top: 5vh;
+        margin: 5vh;
         color:#EEEBDD;
         display: flex;
         text-align: center;
@@ -222,7 +219,61 @@ a:hover{
         justify-content: center;
     }
 
-    
+    .back-fotos{
+        padding: 0px;
+        background: linear-gradient(45deg, #ca0303, #460202, #ad0303, #2e0101);
+        background-size: 300% 300%;
+        overflow-x: hidden;
+        overflow-y: visible;
+        animation: colors 15s ease infinite;
+    }
+
+    .foto-links a{
+        color: #fff;
+    }
+
+    .foto-links a:hover{
+        color: black;
+        transition: 0.5s;
+    }
+
+    .foto-links:hover{
+        background: linear-gradient(90deg, #c2b3b37a, #9c8f8f75, #b64848dc, #e2494963);
+        backdrop-filter: blur(4px);
+        background-size: 170% 500%;
+        overflow-x: hidden;
+        overflow-y: visible;
+        animation: colors 10s ease infinite;
+    }
+
+    .foto-links{
+        background-color: #2e010198;
+        transition: 0.7s;
+        border-radius: 2%;
+        margin: 47px;
+        padding-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .foto-links img{
+        height: 48vh;
+        display: flex;
+        width: 70vw;
+    }
+
+    .subtitle-foto{
+        font-family: Corintia;
+        margin: 2vh;
+        font-size: 1.5em;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
 }
 
