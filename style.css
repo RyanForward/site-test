@@ -318,7 +318,7 @@ a {
         margin-top: 10px;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     #nav-list img{
@@ -391,12 +391,32 @@ a {
         animation: colors 10s ease infinite;
     }
 
-    .categories{
-        overflow-x: scroll;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    .categories::-webkit-scrollbar{
+        width: 1vw;
+        background-color: rgba(255, 255, 255, 0.5);
     }
+
+    .categories::-webkit-scrollbar-thumb{
+        width: 1vw;
+        background-color: #000000;
+    }
+
+    .categories{
+        position: absolute;
+        right: 5%;
+        width: 90vw;
+        display:flex;
+        flex-direction:row;
+        overflow-x: scroll;
+        justify-content: space-between;
+        overflow-y: hidden;
+    }
+
+    .categories .foto-links{
+        display:inline-block;
+        *display:inline;
+    }
+
 
     .foto-links{
         background-color: #350303af;
