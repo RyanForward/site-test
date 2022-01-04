@@ -20,7 +20,7 @@
     }
 }
 body{
-    height: 200vh;
+    margin-top: -20px;
     position: relative;
 }
 
@@ -39,11 +39,10 @@ a {
 @media screen and (min-width: 0px) and (max-width: 669px) {
 
     html, body{
-        padding: 0px;
         background: linear-gradient(45deg, #f01010, #630101, #f01010, #470101);
         background-size: 300% 300%;
         overflow-x: hidden;
-        overflow-y: visible;
+        overflow: visible;
         animation: colors 15s ease infinite;
     }
     
@@ -72,6 +71,7 @@ a {
 
     .title{
         width: 20vw;
+        margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -226,7 +226,7 @@ a {
         backdrop-filter: blur(4px);
         background-size: 170% 500%;
         overflow-x: hidden;
-        overflow-y: visible;
+        overflow-y: hidden;
         animation: colors 10s ease infinite;
     }
 
@@ -245,7 +245,7 @@ a {
         padding-top: 15px;
         display: flex;
         
-        overflow-y: visible ;
+        overflow-y: hidden;
     }
 
     .foto-links img{
@@ -278,7 +278,7 @@ a {
         overflow-y: visible;
         animation: colors 15s ease infinite;
     }
-    
+
     .header{
         text-align:center;
         display: flex;
@@ -400,7 +400,7 @@ a {
     .categories::-webkit-scrollbar-thumb{
         width: 1vw;
         border-radius: 80px 80px 80px 80px;
-        background-color: #270101;
+        background-color: #360000;
     }
 
     .categories{
@@ -448,7 +448,5 @@ a {
         align-items: center;
         justify-content: center;
     }
-
-
 }
 
