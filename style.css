@@ -62,12 +62,17 @@ a {
 
 @media screen and (min-width: 0px) and (max-width: 669px) {
 
+    body{
+        height: 150vh;
+        width: 100vw;
+    }
+
     html, body{
-        background: linear-gradient(45deg, #f01010, #630101, #f01010, #470101);
+        background-color: #630101;
         background-size: 300% 300%;
-        overflow-x: hidden;
-        overflow: visible;
         animation: colors 15s ease infinite;
+        overflow-x: hidden;
+        
     }
     
     .header{
@@ -280,9 +285,8 @@ a {
 
 @media screen and (min-width:  670px) and (max-width:1199px) {
     body{
-        height: 120vh;
+        height: 140vh;
         margin-top: 2vh;
-        padding: 0px;
         background: var(--main-color);
         background-size: 400% 300%;
         overflow-x: hidden;
@@ -318,7 +322,8 @@ a {
     }
 
     #biography{
-        margin-top: 17vh;
+        margin-top: 20%;
+        margin-bottom: 50vh;
         height: 80vh;
         width: 100vw;
         text-align: center;
@@ -502,7 +507,7 @@ a {
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1800px) {
 
     body{
         height: 120vh;
